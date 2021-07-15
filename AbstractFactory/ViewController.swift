@@ -14,6 +14,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    
+    @IBAction func bedroomOrder(_ sender: Any) {
+        
+    }
+    
+    @IBAction func bathOrder(_ sender: Any) {
+        
+    }
+    
 }
+
 
