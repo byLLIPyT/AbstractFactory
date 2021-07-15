@@ -22,6 +22,9 @@
 		AB4C5D9426A0B6F100ED4FB4 /* ChairBath.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C5D9326A0B6F100ED4FB4 /* ChairBath.swift */; };
 		AB4C5D9726A0B70700ED4FB4 /* CoffeeTableBath.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C5D9626A0B70700ED4FB4 /* CoffeeTableBath.swift */; };
 		AB4C5D9A26A0B70F00ED4FB4 /* SofaBath.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C5D9926A0B70F00ED4FB4 /* SofaBath.swift */; };
+		AB4C5D9D26A0B99400ED4FB4 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C5D9C26A0B99400ED4FB4 /* AbstractFactory.swift */; };
+		AB4C5DA026A0BBF500ED4FB4 /* BedroomFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C5D9F26A0BBF500ED4FB4 /* BedroomFactory.swift */; };
+		AB4C5DA326A0BD3B00ED4FB4 /* BathFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C5DA226A0BD3B00ED4FB4 /* BathFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		AB4C5D9326A0B6F100ED4FB4 /* ChairBath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChairBath.swift; sourceTree = "<group>"; };
 		AB4C5D9626A0B70700ED4FB4 /* CoffeeTableBath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeTableBath.swift; sourceTree = "<group>"; };
 		AB4C5D9926A0B70F00ED4FB4 /* SofaBath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SofaBath.swift; sourceTree = "<group>"; };
+		AB4C5D9C26A0B99400ED4FB4 /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
+		AB4C5D9F26A0BBF500ED4FB4 /* BedroomFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedroomFactory.swift; sourceTree = "<group>"; };
+		AB4C5DA226A0BD3B00ED4FB4 /* BathFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BathFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 		AB4C5D7D26A0B55000ED4FB4 /* AbstractFactory */ = {
 			isa = PBXGroup;
 			children = (
+				AB4C5D9C26A0B99400ED4FB4 /* AbstractFactory.swift */,
+				AB4C5D9F26A0BBF500ED4FB4 /* BedroomFactory.swift */,
+				AB4C5DA226A0BD3B00ED4FB4 /* BathFactory.swift */,
 			);
 			path = AbstractFactory;
 			sourceTree = "<group>";
@@ -196,8 +205,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB4C5D9D26A0B99400ED4FB4 /* AbstractFactory.swift in Sources */,
 				AB4C5D9426A0B6F100ED4FB4 /* ChairBath.swift in Sources */,
+				AB4C5DA326A0BD3B00ED4FB4 /* BathFactory.swift in Sources */,
 				AB4C5D8726A0B5DA00ED4FB4 /* Table.swift in Sources */,
+				AB4C5DA026A0BBF500ED4FB4 /* BedroomFactory.swift in Sources */,
 				AB4C5D8A26A0B63700ED4FB4 /* ChairBedroom.swift in Sources */,
 				AB4C5D6C26A0793A00ED4FB4 /* ViewController.swift in Sources */,
 				AB4C5D8D26A0B66600ED4FB4 /* CoffeeTableBedroom.swift in Sources */,
